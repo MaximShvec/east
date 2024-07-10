@@ -19103,6 +19103,10 @@ footer {
 @media screen and (max-width: 767px) {
   header {
     z-index: 99999999999999;
+    height: 46px;
+  }
+  body {
+    padding-top: 46px;
   }
   .contact__page__main__form-row {
     flex-wrap: wrap;
@@ -19360,7 +19364,7 @@ footer {
     padding: 0;
     border-radius: 0;
     padding-top: 50px;
-    padding-bottom: 85px;
+    padding-bottom: 0;
   }
   .hr-box span {
     background: #000;
@@ -19676,6 +19680,9 @@ footer {
   }
   .footer__row__right__row__box-link a {
     max-width: none;
+  }
+  .pop-up__pcs {
+    border-radius: 16px 16px 0 0;
   }
   .cart__main {
     border-left: 0;
